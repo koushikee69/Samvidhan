@@ -1,10 +1,62 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { FaGithub, FaGoogle, FaLinkedinIn } from "react-icons/fa";
+
+import { auth, db } from "./firebase";
+import { createUserWithEmailAndPassword,signInWithEmailAndPassword } from "firebase/auth";
+import { setDoc, doc } from "firebase/firestore";
+import { toast } from "react-toastify";
 
 const Login = () => {
   const [isActive, setIsActive] = useState(false);
 
+  const [email,setEmail]=useState("");
+  const [password,setPassword]=useState("");
+  const [name,setName]=useState("");
+
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    try {
+      await signInWithEmailAndPassword(auth, email, password);
+      console.log("User logged in Successfully");
+      window.location.href = "/Homepage";
+      toast.success("User logged in Successfully", {
+        position: "top-center",
+      });
+    } catch (error) {
+      console.log(error.message);
+
+      toast.error(error.message, {
+        position: "bottom-center",
+      });
+    }
+  };
+
+  const handleSignup = async (e) => {
+    e.preventDefault();
+    try {
+      await createUserWithEmailAndPassword(auth, email, password);
+      const user = auth.currentUser;
+      console.log(user);
+      if (user) {
+        await setDoc(doc(db, "Users", user.uid), {
+          email: user.email,
+          firstName: name,
+        });
+      }
+      console.log("User Registered Successfully!!");
+      toast.success("User Registered Successfully!!", {
+        position: "top-center",
+      });
+    } catch (error) {
+      console.log(error.message);
+      toast.error(error.message, {
+        position: "bottom-center",
+      });
+    }
+  };
+
   return (
+    
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-[#4345c2] to-[#252e4a]">
       <div className="relative w-full max-w-[900px] min-h-[500px] bg-white rounded-[30px] shadow-lg overflow-hidden transition-transform">
         <div
@@ -12,7 +64,7 @@ const Login = () => {
             isActive ? 'opacity-0 z-0' : 'opacity-100 z-10'
           }`}
           style={{ width: '50%', height: '100%' }}
-        >
+        ><form onSubmit={handleLogin}>
           <h1 className="text-3xl font-semibold mb-4">Sign In</h1>
           <div className="flex space-x-3 my-5">
             <a href="#" className="flex items-center justify-center w-10 h-10 border rounded-full text-gray-700 hover:bg-gray-100">
@@ -26,10 +78,11 @@ const Login = () => {
             </a>
           </div>
           <span className="text-sm mb-3">or use your registered email and password</span>
-          <input type="email" placeholder="Email" className="w-full p-3 mb-3 bg-gray-200 rounded-lg" />
-          <input type="password" placeholder="Password" className="w-full p-3 mb-3 bg-gray-200 rounded-lg" />
+          <input onChange={(e)=>setEmail(e.target.value)} type="email" placeholder="Email" className="w-full p-3 mb-3 bg-gray-200 rounded-lg"/>
+          <input onChange={(e)=>setPassword(e.target.value)} type="password" placeholder="Password" className="w-full p-3 mb-3 bg-gray-200 rounded-lg" />
           <a href="#" className="text-sm mb-3">Forget Your Password?</a>
           <button className="bg-blue-600 text-white uppercase text-sm font-semibold px-8 py-3 rounded-lg shadow-lg hover:bg-black transition-colors duration-300">Sign In</button>
+          </form>
         </div>
 
         <div
@@ -38,12 +91,17 @@ const Login = () => {
           }`}
           style={{ width: '50%', height: '100%', left: '50%' }}
         >
+          <form onSubmit={handleSignup}>
+
           <h1 className="text-3xl font-semibold mb-4">Create Account</h1>
           <span className="text-sm mb-3">or use your email for registration</span>
-          <input type="text" placeholder="Name" className="w-full p-3 mb-3 bg-gray-200 rounded-lg" />
-          <input type="email" placeholder="Email" className="w-full p-3 mb-3 bg-gray-200 rounded-lg" />
-          <input type="password" placeholder="Password" className="w-full p-3 mb-3 bg-gray-200 rounded-lg" />
+          <input onChange={(e) =>setName(e.target.value)} type="text" placeholder="Name" className="w-full p-3 mb-3 bg-gray-200 rounded-lg" />
+          <input onChange={(e)=>setEmail(e.target.value)} type="email" placeholder="Email" className="w-full p-3 mb-3 bg-gray-200 rounded-lg" />
+          <input onChange={(e)=>setPassword(e.target.value)} type="password" placeholder="Password" className="w-full p-3 mb-3 bg-gray-200 rounded-lg" />
           <button className="bg-blue-600 text-white uppercase text-sm font-semibold px-8 py-3 rounded-lg shadow-lg hover:bg-black transition-colors duration-300">Sign Up</button>
+         
+          </form>
+
         </div>
 
         <div

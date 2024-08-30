@@ -1,16 +1,10 @@
 import React, { useEffect } from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
 import Login from "./components/Login";
 import Level from "./components/Level";
 import levels from "./json/levels.json";
 import Home from "./components/Home";
-import { Routes, Route } from 'react-router-dom';
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Homepage from "./components/Homepage";
@@ -38,13 +32,13 @@ function App() {
         <div className="auth-wrapper">
           <div className="auth-inner">
             <Routes>
-              <Route
-                path="/"
-                element={user ? <Navigate to="/" /> : <Login />}
-              />
+              <Route path="/" element={user ? <Navigate to="/home" /> : <Login />} />
               <Route path="/login" element={<Login />} />
-              <Route path="/" element={<Home />} />
-                <Route path="/levels" element={<Level />} />
+              <Route path="/home" element={<Home />} />
+              <Route
+                path="/levels"
+                element={levels.levels.map((data, index) => lvl === data.level && <Level key={index} data={data} />)}
+              />
             </Routes>
             <ToastContainer />
           </div>

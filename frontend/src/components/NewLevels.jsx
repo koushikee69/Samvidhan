@@ -1,8 +1,14 @@
 import { useEffect } from "react";
 import "./NewLevels.css";
 import gsap from "gsap";
+import levels from "../json/levels.json"
+import Level from "./Level"
+import { useNavigate } from "react-router-dom";
 
 function NewLevels() {
+
+    const navigate = useNavigate()
+
     useEffect(() => {
         const t1 = gsap.timeline();
 
@@ -26,6 +32,9 @@ function NewLevels() {
         };
     }, []);
 
+    const handleClick = (i) => {
+        navigate(`/levels/${i}`)
+    }
 
     return (
         <div className="outer">
@@ -33,7 +42,7 @@ function NewLevels() {
             <img id="bg" src="./buildings.png" alt="Buildings Background" />
             <div className="AllLevels">
                 {Array.from({ length: 12 }, (_, i) => (
-                    <div className="level-container" key={i}>
+                    <div className="level-container" key={i} onClick={()=>handleClick(i+1)}>
                         <img src="level.png" className="levels" alt={`Level ${i + 1}`} />
                         <span className="level-number">{i + 1}</span>
                     </div>

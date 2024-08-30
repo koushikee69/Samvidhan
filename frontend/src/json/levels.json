@@ -1,0 +1,550 @@
+{
+    "levels": [
+      {
+        "level": 1,
+        "article": "Article 1: The Union and its Territory",
+        "description": {
+          "para1": "Article 1 of the Indian Constitution declares that India, also referred to as Bharat, shall be a Union of States. This designation emphasizes the country’s unity and integrity, where individual states come together under a single national identity. The term 'Union' signifies that these states have no right to secede from the union independently.",
+          "para2": "This Article forms the foundation of India's federal structure. It establishes that the territories of India consist of states, union territories, and any territories that may be acquired. The idea is to maintain the cohesion of the nation while allowing administrative divisions for better governance."
+        },
+        "questions": [
+          {
+            "question": "Which article of the Indian Constitution declares India as a Union of States?",
+            "options": ["Article 1", "Article 2", "Article 3", "Article 4"],
+            "correctAnswer": "Article 1"
+          },
+          {
+            "question": "What is the alternative name for India mentioned in Article 1?",
+            "options": ["Hindustan", "India", "Bharat", "Republic of India"],
+            "correctAnswer": "Bharat"
+          },
+          {
+            "question": "What does the term 'Union' in Article 1 signify?",
+            "options": [
+              "The states can secede at will",
+              "India is a federation of indestructible states",
+              "India is a coalition of independent states",
+              "India is a unitary state"
+            ],
+            "correctAnswer": "India is a federation of indestructible states"
+          },
+          {
+            "question": "Which of the following is NOT mentioned in Article 1?",
+            "options": ["Bharat", "Union", "Federal", "Territory"],
+            "correctAnswer": "Federal"
+          },
+          {
+            "question": "How is the territorial integrity of India maintained according to Article 1?",
+            "options": [
+              "By allowing states to secede",
+              "Through a strong central government",
+              "By granting independence to states",
+              "By ensuring no state has the right to leave the Union"
+            ],
+            "correctAnswer": "By ensuring no state has the right to leave the Union"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "article": "Article 13: Laws inconsistent with or in derogation of the Fundamental Rights",
+        "description": {
+          "para1": "Article 13 is a crucial provision that ensures the supremacy of Fundamental Rights in the Indian legal system. It mandates that any law in force before the Constitution that is inconsistent with the provisions of Part III shall be void. This article effectively nullifies any existing laws that contradict the Fundamental Rights guaranteed to citizens.",
+          "para2": "Moreover, Article 13 empowers the judiciary to review and strike down any law that infringes on these rights. This safeguard ensures that the fundamental rights of individuals remain protected from any legislative actions that might undermine them, reinforcing the Constitution as the supreme law of the land."
+        },
+        "questions": [
+          {
+            "question": "What does Article 13 primarily protect?",
+            "options": [
+              "Fundamental Rights",
+              "Directive Principles",
+              "Fundamental Duties",
+              "Government policies"
+            ],
+            "correctAnswer": "Fundamental Rights"
+          },
+          {
+            "question": "What happens to laws inconsistent with Fundamental Rights according to Article 13?",
+            "options": ["They remain in force", "They are amended", "They are void", "They are referred to the Supreme Court"],
+            "correctAnswer": "They are void"
+          },
+          {
+            "question": "Which part of the Constitution does Article 13 relate to?",
+            "options": ["Part I", "Part II", "Part III", "Part IV"],
+            "correctAnswer": "Part III"
+          },
+          {
+            "question": "Which of the following is true according to Article 13?",
+            "options": [
+              "All laws inconsistent with the Constitution are valid.",
+              "New laws can derogate from Fundamental Rights.",
+              "No law can derogate from Fundamental Rights.",
+              "Only central laws are affected by Article 13."
+            ],
+            "correctAnswer": "No law can derogate from Fundamental Rights."
+          },
+          {
+            "question": "Why is Article 13 significant in the Indian legal system?",
+            "options": [
+              "It grants absolute power to Parliament.",
+              "It upholds the supremacy of Fundamental Rights.",
+              "It allows for the flexible interpretation of laws.",
+              "It limits the role of the judiciary."
+            ],
+            "correctAnswer": "It upholds the supremacy of Fundamental Rights."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "article": "Article 19: Protection of certain rights regarding freedom of speech, etc.",
+        "description": {
+          "para1": "Article 19 guarantees certain fundamental freedoms to all citizens, forming the bedrock of a democratic society. These include the freedom of speech and expression, the right to assemble peaceably without arms, to form associations or unions, and to move freely throughout the country. These rights are essential for the functioning of a vibrant democracy where citizens can express their views and participate in collective activities.",
+          "para2": "However, these freedoms are not absolute and can be reasonably restricted by the state in the interests of sovereignty, public order, and morality. This balance ensures that individual liberties do not undermine the collective well-being of society, maintaining harmony between personal freedom and social responsibility."
+        },
+        "questions": [
+          {
+            "question": "Which article guarantees the freedom of speech and expression?",
+            "options": ["Article 14", "Article 15", "Article 19", "Article 21"],
+            "correctAnswer": "Article 19"
+          },
+          {
+            "question": "Which of the following is NOT a freedom guaranteed under Article 19?",
+            "options": [
+              "Freedom of speech",
+              "Right to bear arms",
+              "Right to assemble peaceably",
+              "Right to form associations"
+            ],
+            "correctAnswer": "Right to bear arms"
+          },
+          {
+            "question": "Article 19 allows the state to impose restrictions on freedoms for certain reasons. Which of these is one?",
+            "options": [
+              "For public order",
+              "For political gains",
+              "For economic reasons",
+              "For environmental protection"
+            ],
+            "correctAnswer": "For public order"
+          },
+          {
+            "question": "Which freedom is critical for the functioning of a democratic society as per Article 19?",
+            "options": [
+              "Freedom of assembly",
+              "Freedom to bear arms",
+              "Freedom to impose restrictions",
+              "Freedom to criticize the government"
+            ],
+            "correctAnswer": "Freedom to criticize the government"
+          },
+          {
+            "question": "Why are the freedoms in Article 19 not absolute?",
+            "options": [
+              "To allow the government to control public discourse",
+              "To balance individual freedom with societal interests",
+              "To protect government authority",
+              "To maintain cultural uniformity"
+            ],
+            "correctAnswer": "To balance individual freedom with societal interests"
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "article": "Article 21: Protection of life and personal liberty",
+        "description": {
+          "para1": "Article 21 of the Constitution is one of the most significant provisions, guaranteeing the right to life and personal liberty. It states that no person shall be deprived of his life or personal liberty except according to the procedure established by law. This article forms the basis for various judicial interpretations that have expanded the scope of the right to life.",
+          "para2": "The judiciary has interpreted Article 21 to include a wide range of rights necessary for leading a dignified life, such as the right to privacy, the right to a clean environment, and the right to health. This ensures that the concept of life is not restricted to mere survival but extends to living with dignity and respect."
+        },
+        "questions": [
+          {
+            "question": "Which article ensures the right to life and personal liberty?",
+            "options": ["Article 14", "Article 19", "Article 21", "Article 22"],
+            "correctAnswer": "Article 21"
+          },
+          {
+            "question": "Which of the following has been included under Article 21 by judicial interpretation?",
+            "options": [
+              "Right to bear arms",
+              "Right to privacy",
+              "Right to form associations",
+              "Right to freedom of speech"
+            ],
+            "correctAnswer": "Right to privacy"
+          },
+          {
+            "question": "What is the significance of the 'procedure established by law' in Article 21?",
+            "options": [
+              "It allows arbitrary state action.",
+              "It ensures legal safeguards in deprivation of life and liberty.",
+              "It gives the government unlimited power.",
+              "It only applies to criminal cases."
+            ],
+            "correctAnswer": "It ensures legal safeguards in deprivation of life and liberty."
+          },
+          {
+            "question": "Article 21 has been interpreted to include which of the following rights?",
+            "options": [
+              "Right to property",
+              "Right to bear arms",
+              "Right to a clean environment",
+              "Right to freedom of religion"
+            ],
+            "correctAnswer": "Right to a clean environment"
+          },
+          {
+            "question": "How has the judiciary expanded the scope of Article 21?",
+            "options": [
+              "By adding economic rights",
+              "By including various rights essential for dignified living",
+              "By restricting it to legal procedures",
+              "By limiting it to personal safety"
+            ],
+            "correctAnswer": "By including various rights essential for dignified living"
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "article": "Article 32: Remedies for enforcement of rights conferred by Part III",
+        "description": {
+          "para1": "Article 32 is often referred to as the 'heart and soul' of the Indian Constitution. It provides the right to constitutional remedies, allowing individuals to approach the Supreme Court directly for the enforcement of their Fundamental Rights. Dr. B.R. Ambedkar emphasized its importance by stating that without Article 32, the Constitution would be a nullity.",
+          "para2": "This article empowers the Supreme Court to issue writs, such as habeas corpus, mandamus, prohibition, quo warranto, and certiorari, to protect the rights of individuals. Article 32 thus acts as a guardian of Fundamental Rights, ensuring that they are not merely theoretical but can be actively enforced by citizens."
+        },
+        "questions": [
+          {
+            "question": "Which article is known as the 'heart and soul' of the Indian Constitution?",
+            "options": ["Article 14", "Article 19", "Article 21", "Article 32"],
+            "correctAnswer": "Article 32"
+          },
+          {
+            "question": "What does Article 32 empower the Supreme Court to do?",
+            "options": [
+              "Legislate new laws",
+              "Amend the Constitution",
+              "Issue writs for enforcement of Fundamental Rights",
+              "Review state laws"
+            ],
+            "correctAnswer": "Issue writs for enforcement of Fundamental Rights"
+          },
+          {
+            "question": "Which of the following is NOT a writ that can be issued under Article 32?",
+            "options": ["Habeas corpus", "Mandamus", "Quo warranto", "Injunction"],
+            "correctAnswer": "Injunction"
+          },
+          {
+            "question": "What is the significance of Article 32 in protecting Fundamental Rights?",
+            "options": [
+              "It provides direct access to the High Courts.",
+              "It allows individuals to bypass the legal process.",
+              "It makes Fundamental Rights enforceable through the judiciary.",
+              "It grants immunity to state actions."
+            ],
+            "correctAnswer": "It makes Fundamental Rights enforceable through the judiciary."
+          },
+          {
+            "question": "How does Article 32 differ from other articles in Part III?",
+            "options": [
+              "It is the only article that can be amended.",
+              "It allows citizens to directly approach the Supreme Court.",
+              "It applies only to government employees.",
+              "It is not enforceable against private entities."
+            ],
+            "correctAnswer": "It allows citizens to directly approach the Supreme Court."
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "article": "Article 44: Uniform Civil Code for the citizens",
+        "description": {
+          "para1": "Article 44 aims to establish a Uniform Civil Code (UCC) across India. This provision seeks to replace personal laws based on the scriptures and customs of each major religious community with a common set governing every citizen. The goal is to ensure equal treatment for all citizens in matters such as marriage, divorce, inheritance, and adoption, regardless of religion.",
+          "para2": "While the UCC has been proposed as a means to promote national integration and equality, it has faced challenges and debates. The diversity of personal laws in India reflects the country's cultural plurality, and implementing a uniform code requires balancing respect for religious practices with the principles of equality and justice."
+        },
+        "questions": [
+          {
+            "question": "What does Article 44 advocate for?",
+            "options": [
+              "A common set of laws for all citizens",
+              "Separate laws for different religions",
+              "Enhanced personal freedoms",
+              "Regional autonomy in legal matters"
+            ],
+            "correctAnswer": "A common set of laws for all citizens"
+          },
+          {
+            "question": "Why is the implementation of a Uniform Civil Code challenging?",
+            "options": [
+              "Due to legal complications",
+              "Due to respect for diverse religious practices",
+              "Because of financial constraints",
+              "Due to lack of political support"
+            ],
+            "correctAnswer": "Due to respect for diverse religious practices"
+          },
+          {
+            "question": "Which areas would be affected by the Uniform Civil Code?",
+            "options": [
+              "Criminal law",
+              "Economic policies",
+              "Personal matters like marriage and inheritance",
+              "International relations"
+            ],
+            "correctAnswer": "Personal matters like marriage and inheritance"
+          },
+          {
+            "question": "What is the primary objective of Article 44?",
+            "options": [
+              "To promote regional autonomy",
+              "To standardize personal laws",
+              "To provide financial aid",
+              "To enhance religious freedoms"
+            ],
+            "correctAnswer": "To standardize personal laws"
+          },
+          {
+            "question": "How does Article 44 contribute to national integration?",
+            "options": [
+              "By creating a single legal framework for all citizens",
+              "By increasing religious diversity",
+              "By decentralizing legal authority",
+              "By promoting regional laws"
+            ],
+            "correctAnswer": "By creating a single legal framework for all citizens"
+          }
+        ]
+      },
+      {
+        "level": 7,
+        "article": "Article 370: Temporary provisions with respect to the State of Jammu and Kashmir",
+        "description": {
+          "para1": "Article 370 granted special autonomy to the state of Jammu and Kashmir, allowing it to have its own Constitution and considerable autonomy in many areas of governance. This article was meant to recognize the unique circumstances of Jammu and Kashmir’s accession to India and provide it with a degree of self-governance while being part of the Indian Union.",
+          "para2": "However, Article 370 was abrogated in August 2019, leading to the reorganization of Jammu and Kashmir into two Union Territories. The abrogation was a significant political event, as it marked a shift in the region’s status and its relationship with the Indian Union, leading to extensive debates and discussions on its implications."
+        },
+        "questions": [
+          {
+            "question": "What did Article 370 provide to the state of Jammu and Kashmir?",
+            "options": [
+              "Special autonomy",
+              "Full independence",
+              "Economic subsidies",
+              "Military protection"
+            ],
+            "correctAnswer": "Special autonomy"
+          },
+          {
+            "question": "What significant change occurred in August 2019 regarding Article 370?",
+            "options": [
+              "It was amended to grant more autonomy",
+              "It was abrogated",
+              "It was extended to other states",
+              "It was merged with Article 35A"
+            ],
+            "correctAnswer": "It was abrogated"
+          },
+          {
+            "question": "What was the immediate consequence of the abrogation of Article 370?",
+            "options": [
+              "Formation of a new state",
+              "Reorganization into Union Territories",
+              "Implementation of a Uniform Civil Code",
+              "Introduction of new economic policies"
+            ],
+            "correctAnswer": "Reorganization into Union Territories"
+          },
+          {
+            "question": "Which region's status was significantly affected by the abrogation of Article 370?",
+            "options": [
+              "Goa",
+              "Kerala",
+              "Jammu and Kashmir",
+              "Punjab"
+            ],
+            "correctAnswer": "Jammu and Kashmir"
+          },
+          {
+            "question": "What was the purpose of the special autonomy granted by Article 370?",
+            "options": [
+              "To provide economic aid",
+              "To maintain law and order",
+              "To recognize the unique status of Jammu and Kashmir",
+              "To grant military powers"
+            ],
+            "correctAnswer": "To recognize the unique status of Jammu and Kashmir"
+          }
+        ]
+      },
+      {
+        "level": 8,
+        "article": "Article 356: Provisions in case of failure of constitutional machinery in States",
+        "description": {
+          "para1": "Article 356 deals with the situation where the President of India believes that the government of a state is not functioning according to the provisions of the Constitution. This article allows the President to dissolve the state government and impose President's Rule, effectively taking direct control of the state’s administration.",
+          "para2": "President's Rule can be imposed if there is a breakdown of constitutional machinery, such as failure to maintain law and order or to govern according to the Constitution. This provision is a mechanism to ensure that the state's administration aligns with the constitutional framework and maintains stability within the country."
+        },
+        "questions": [
+          {
+            "question": "What does Article 356 address?",
+            "options": [
+              "State's economic policies",
+              "Failure of constitutional machinery in states",
+              "Judicial appointments",
+              "Legislative processes"
+            ],
+            "correctAnswer": "Failure of constitutional machinery in states"
+          },
+          {
+            "question": "What action can the President take under Article 356?",
+            "options": [
+              "Dissolve the state legislature",
+              "Appoint a new Chief Minister",
+              "Introduce new laws",
+              "Reorganize state boundaries"
+            ],
+            "correctAnswer": "Dissolve the state legislature"
+          },
+          {
+            "question": "Under what circumstances can Article 356 be invoked?",
+            "options": [
+              "Economic instability",
+              "Constitutional breakdown",
+              "Judicial disputes",
+              "Electoral irregularities"
+            ],
+            "correctAnswer": "Constitutional breakdown"
+          },
+          {
+            "question": "What is the effect of imposing President's Rule under Article 356?",
+            "options": [
+              "Creation of a new state",
+              "Direct control by the central government",
+              "Formation of a new government",
+              "Delegation of powers to local authorities"
+            ],
+            "correctAnswer": "Direct control by the central government"
+          },
+          {
+            "question": "What does Article 356 ensure regarding state administration?",
+            "options": [
+              "Autonomous functioning",
+              "Alignment with the Constitution",
+              "Financial support",
+              "Local self-governance"
+            ],
+            "correctAnswer": "Alignment with the Constitution"
+          }
+        ]
+      },
+      {
+        "level": 9,
+        "article": "Article 124: Establishment and constitution of Supreme Court",
+        "description": {
+          "para1": "Article 124 of the Indian Constitution establishes the Supreme Court of India, the apex judicial authority in the country. It provides for the appointment of the Chief Justice and other judges of the Supreme Court, ensuring that the highest court is composed of individuals with distinguished legal expertise and experience. This Article is fundamental in maintaining the independence of the judiciary.",
+          "para2": "The Supreme Court's primary role is to interpret the Constitution and adjudicate on matters of national importance. Article 124 outlines the composition, appointment procedures, and functions of the Supreme Court, reinforcing its role as the guardian of the Constitution and ensuring justice at the highest level."
+        },
+        "questions": [
+          {
+            "question": "Which article establishes the Supreme Court of India?",
+            "options": ["Article 124", "Article 125", "Article 126", "Article 127"],
+            "correctAnswer": "Article 124"
+          },
+          {
+            "question": "What does Article 124 provide for?",
+            "options": [
+              "Creation of the High Courts",
+              "Appointment of the Supreme Court judges",
+              "Establishment of lower courts",
+              "Formation of state judicial bodies"
+            ],
+            "correctAnswer": "Appointment of the Supreme Court judges"
+          },
+          {
+            "question": "What is the primary function of the Supreme Court as outlined in Article 124?",
+            "options": [
+              "Legislative review",
+              "Constitutional interpretation",
+              "Administrative control",
+              "Election supervision"
+            ],
+            "correctAnswer": "Constitutional interpretation"
+          },
+          {
+            "question": "Who is responsible for the appointment of Supreme Court judges under Article 124?",
+            "options": [
+              "The President of India",
+              "The Prime Minister",
+              "The Parliament",
+              "The Chief Justice of India"
+            ],
+            "correctAnswer": "The President of India"
+          },
+          {
+            "question": "What role does Article 124 play in the judicial system?",
+            "options": [
+              "It limits the powers of the judiciary.",
+              "It establishes the Supreme Court and outlines its composition.",
+              "It creates state-level courts.",
+              "It defines the scope of executive powers."
+            ],
+            "correctAnswer": "It establishes the Supreme Court and outlines its composition."
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "article": "Article 15: Prohibition of discrimination on grounds of religion, race, caste, sex, or place of birth",
+        "description": {
+          "para1": "Article 15 prohibits discrimination against individuals on grounds of religion, race, caste, sex, or place of birth. This fundamental right is essential for ensuring equality and social justice within the Indian Republic. By outlawing discriminatory practices, Article 15 aims to provide all citizens with equal access to opportunities and services.",
+          "para2": "This Article plays a crucial role in promoting inclusivity and preventing exclusionary practices. It empowers the State to take affirmative actions to uplift marginalized communities and ensure equal treatment in areas such as education and employment, reinforcing the values of justice and equality enshrined in the Constitution."
+        },
+        "questions": [
+          {
+            "question": "Which article prohibits discrimination on grounds of religion, race, caste, sex, or place of birth?",
+            "options": ["Article 12", "Article 14", "Article 15", "Article 16"],
+            "correctAnswer": "Article 15"
+          },
+          {
+            "question": "What does Article 15 ensure for all citizens?",
+            "options": [
+              "Equal pay for equal work",
+              "Equal access to opportunities and services",
+              "Freedom of speech",
+              "Right to property"
+            ],
+            "correctAnswer": "Equal access to opportunities and services"
+          },
+          {
+            "question": "Which of the following practices is prohibited by Article 15?",
+            "options": [
+              "Reservation in educational institutions",
+              "Discrimination based on caste",
+              "Affirmative action for backward classes",
+              "Equal representation in the legislature"
+            ],
+            "correctAnswer": "Discrimination based on caste"
+          },
+          {
+            "question": "How does Article 15 contribute to social justice?",
+            "options": [
+              "By providing financial aid",
+              "By enforcing equal treatment and opportunities",
+              "By regulating employment contracts",
+              "By limiting political rights"
+            ],
+            "correctAnswer": "By enforcing equal treatment and opportunities"
+          },
+          {
+            "question": "What is the role of Article 15 in addressing inequality?",
+            "options": [
+              "It allows for differential treatment.",
+              "It promotes equal treatment and prevents discrimination.",
+              "It grants special privileges to certain groups.",
+              "It provides for economic support to disadvantaged groups."
+            ],
+            "correctAnswer": "It promotes equal treatment and prevents discrimination."
+          }
+        ]
+      }
+    ]
+  }
+  

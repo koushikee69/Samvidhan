@@ -7,7 +7,10 @@ import {
 } from "react-router-dom";
 
 import Login from "./components/Login";
-
+import Level from "./components/Level";
+import levels from "./json/levels.json";
+import Home from "./components/Home";
+import { Routes, Route } from 'react-router-dom';
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Homepage from "./components/Homepage";
@@ -21,7 +24,15 @@ function App() {
       setUser(user);
     });
   });
+  const lvl = 1;
   return (
+    // <div>
+    //   {/* <Login /> */}
+    //   {/* {levels.levels.map((data, index) => (
+    //    lvl===data.level && <Level key={index} data={data} />
+    //   ))} */}
+    //   <Home />
+    // </div>
     <Router>
       <div className="App">
         <div className="auth-wrapper">
@@ -29,10 +40,11 @@ function App() {
             <Routes>
               <Route
                 path="/"
-                element={user ? <Navigate to="/Homepage" /> : <Login />}
+                element={user ? <Navigate to="/" /> : <Login />}
               />
               <Route path="/login" element={<Login />} />
-              <Route path="/Homepage" element={<Homepage />} />
+              <Route path="/" element={<Home />} />
+                <Route path="/levels" element={<Level />} />
             </Routes>
             <ToastContainer />
           </div>

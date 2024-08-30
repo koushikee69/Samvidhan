@@ -1,3 +1,4 @@
+
 import { useEffect } from 'react';
 import './Loading.css';
 import gsap from 'gsap';
@@ -32,3 +33,4 @@ function Loading() {
 }
 
 export default Loading;
+

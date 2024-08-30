@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import ChatBot from "./ChatBot"
 
 const Home = () => {
   const [imgSrc, setImgSrc] = useState("/pngwing.com.png");
@@ -85,6 +86,7 @@ const Home = () => {
   }, [navigate]);
 
   return (
+    <>
     <div id="home" className="relative h-screen p-10 bg-black">
       <div
         className="absolute h-[200px] w-[200px] bg-slate-200 rounded-full overflow-hidden shadow-2xl flex justify-between items-center"
@@ -120,6 +122,8 @@ const Home = () => {
         </div>
       </div>
     </div>
+    <ChatBot/>
+    </>
   );
 };
 

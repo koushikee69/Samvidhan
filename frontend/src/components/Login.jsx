@@ -18,7 +18,7 @@ const Login = () => {
     try {
       await signInWithEmailAndPassword(auth, email, password);
       console.log("User logged in Successfully");
-      window.location.href = "/Homepage";
+      window.location.href = "/";
       toast.success("User logged in Successfully", {
         position: "top-center",
       });
@@ -47,7 +47,7 @@ const Login = () => {
       toast.success("User Registered Successfully!!", {
         position: "top-center",
       });
-      window.location.href = "/Homepage";
+      window.location.href = "/";
     } catch (error) {
       console.log(error.message);
       toast.error(error.message, {

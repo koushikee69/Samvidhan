@@ -74,7 +74,7 @@ const Login = () => {
               >
                 <FaGoogle />
               </a>
-              <a
+              {/* <a
                 href="#"
                 className="flex items-center justify-center w-10 h-10 border rounded-full text-gray-700 hover:bg-gray-100"
               >
@@ -85,7 +85,7 @@ const Login = () => {
                 className="flex items-center justify-center w-10 h-10 border rounded-full text-gray-700 hover:bg-gray-100"
               >
                 <FaLinkedinIn />
-              </a>
+              </a> */}
             </div>
             <span className="text-sm mb-3">or use your registered email and password</span>
             <input

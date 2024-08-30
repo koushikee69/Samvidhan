@@ -5,7 +5,7 @@ import ChatBot from "./ChatBot"
 const Home = () => {
   const [imgSrc, setImgSrc] = useState("/pngwing.com.png");
   const [rotation, setRotation] = useState(0);
-  const navigate = useNavigate(); // Use useNavigate for routing
+  const navigate = useNavigate(); 
 
   useEffect(() => {
     const home = document.querySelector("#home");

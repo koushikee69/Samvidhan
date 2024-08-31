@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaGithub, FaGoogle, FaLinkedinIn } from "react-icons/fa";
 
 import { auth, db } from "./firebase";
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword,signInWithPopup,GoogleAuthProvider } from "firebase/auth";
 import { setDoc, doc } from "firebase/firestore";
 import { toast } from "react-toastify";
 
@@ -40,7 +40,7 @@ const Login = () => {
       if (user) {
         await setDoc(doc(db, "Users", user.uid), {
           email: user.email,
-          firstName: name,
+          name: name,
         });
       }
       console.log("User Registered Successfully!!");
@@ -56,6 +56,25 @@ const Login = () => {
     }
   };
 
+  function googleLogin() {
+    const provider = new GoogleAuthProvider();
+    signInWithPopup(auth, provider).then(async (result) => {
+      console.log(result);
+      const user = result.user;
+      if (result.user) {
+        await setDoc(doc(db, "Users", user.uid), {
+          email: user.email,
+          name: user.displayName,
+          photo:user.photoURL
+        });
+        toast.success("User logged in Successfully", {
+          position: "top-center",
+        });
+        window.location.href = "/home";
+      }
+    });
+  }
+
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-[#4345c2] to-[#252e4a]">
       <div className="relative w-full max-w-[900px] min-h-[500px] bg-white rounded-[30px] shadow-lg overflow-hidden transition-transform">
@@ -69,7 +88,7 @@ const Login = () => {
             <h1 className="text-3xl font-semibold mb-4">Sign In</h1>
             <div className="flex space-x-3 my-5">
               <a
-                href="#"
+                onClick={googleLogin}
                 className="flex items-center justify-center w-10 h-10 border rounded-full text-gray-700 hover:bg-gray-100"
               >
                 <FaGoogle />

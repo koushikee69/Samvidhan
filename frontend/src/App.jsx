@@ -43,8 +43,6 @@ const App = () => {
       ) : (
         <Router>
           <div className="App">
-            <div className="auth-wrapper">
-              <div className="auth-inner">
                 <Routes>
                   <Route path="/" element={user ? <Navigate to="/home" /> : <Login />} />
                   <Route path="/login" element={<Login />} />
@@ -53,8 +51,6 @@ const App = () => {
                   <Route path="/levels/:level" element={<LevelWithParams />} />
                 </Routes>
                 <ToastContainer />
-              </div>
-            </div>
           </div>
         </Router>
       )}

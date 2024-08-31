@@ -35,14 +35,12 @@ function Homepage() {
     <div>
       {userDetails ? (
         <>
-          <div style={{ display: "flex", justifyContent: "center" }}>
             <img
               src={userDetails.photo}
-              width={"40%"}
+              width={"10%"}
               style={{ borderRadius: "50%" }}
             />
-          </div>
-          <h3>Welcome {userDetails.firstName}</h3>
+          <h3>Welcome {userDetails.name}</h3>
           <div>
             <p>Email: {userDetails.email}</p>
           </div>
